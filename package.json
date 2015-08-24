@@ -1,0 +1,16 @@
+{
+  "name": "xa1-zlib",
+  "description": "Crypto helper for Sage X3 4GL",
+  "version": "1.0.0",
+  "author": "ACME Corp.",
+  "private": true,
+  "sage": {
+    "x3": {
+      "extensions": {
+        "4gl-apis": [{
+          "module": "./lib/zlib-helper"
+        }]
+      }
+    }
+  }
+}
